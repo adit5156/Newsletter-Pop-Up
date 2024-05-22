@@ -156,3 +156,45 @@ footer {
 .footer-text {
     color: white;
 }
+
+@media (max-width: 768px) {
+    .btn-container {
+        max-width: 460px;
+        padding: 64px 110px;
+        border-radius: 30px;
+    }
+    
+    .btn-container > button {
+        border-radius: 30px;
+    }
+
+    .open .popup {
+        transform: translate(-50%, -50%) scale(0.8);
+        -webkit-transform: translate(-50%, -50%) scale(0.8);
+        -moz-transform: translate(-50%, -50%) scale(0.8);
+        -ms-transform: translate(-50%, -50%) scale(0.8);
+        -o-transform: translate(-50%, -50%) scale(0.8);
+}
+}
+@media (max-width: 568px) {
+    .btn-container {
+        max-width: 230px;
+        padding: 46px 90px;
+    }
+
+    .btn-container > button {
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
+    .open .popup {
+        transform: translate(-50%, -50%) scale(0.6);
+        -webkit-transform: translate(-50%, -50%) scale(0.6);
+        -moz-transform: translate(-50%, -50%) scale(0.6);
+        -ms-transform: translate(-50%, -50%) scale(0.6);
+        -o-transform: translate(-50%, -50%) scale(0.6);
+}
+}
